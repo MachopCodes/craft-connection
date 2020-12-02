@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom'
 import './index.scss'
 
 import App from './App'
-import { HashRouter } from 'react-router-dom'
 
-const appJsx = (
-  <HashRouter>
+const rootElement = document.getElementById('root')
+ReactDOM.render(
+  <React.StrictMode>
     <App />
-  </HashRouter>
+  </React.StrictMode>,
+  rootElement
 )
-
-ReactDOM.render(appJsx, document.getElementById('root'))

@@ -11,7 +11,6 @@ const Home = props => {
     setConnection()
   }
 
-  console.log(' This console log is because connection isnt used', connection)
   const handleShow = e => {
     setShow(true)
     setConnection(e.target.alt)
