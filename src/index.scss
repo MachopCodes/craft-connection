@@ -11,9 +11,10 @@
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  background-image: url('./components/images/craftdistillery.jpg');
+  background-image: url('./images/craftdistillery.jpg');
   box-shadow: inset 0 0 4em 4em #000000;
 }
+
 .masthead .masthead-heading {
   font-family: Georgia, serif;
   font-size: 40px;
@@ -21,9 +22,6 @@
   word-spacing: 2px;
   color: #E9B122;
   font-variant: small-caps;
-}
-.masthead .masthead-subheading {
-  font-size: 1.25rem;
 }
 
 @media (min-width: 992px) {
@@ -35,34 +33,28 @@
     font-size: 8rem;
     line-height: 6.5rem;
   }
-  .masthead .masthead-subheading {
-    font-size: 1.5rem;
-  }
 }
 
 .page-section {
   padding: 6rem 0;
 }
+
 .page-section .page-section-heading {
-  font-size: 2.0rem;
-  line-height: 1.5rem;
-}
-@media (min-width: 992px) {
-  .page-section .page-section-heading {
     font-family: Georgia, serif;
     font-size: 40px;
     letter-spacing: 2px;
     word-spacing: 2px;
+    font-size: 2.0rem;
+    line-height: 1.5rem;
     color: #FFE6C6;
     font-variant: small-caps;
   }
-}
 
 .about {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  background-image: url('./components/images/wine.jpg');
+  background-image: url('./images/wine.jpg');
   box-shadow: inset 0 0 1em 4em #000000;
   opacity: .95
 }
@@ -71,13 +63,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  background-image: url('./components/images/countryside.jpg');
-  box-shadow: inset 0 0 4em 5em #000000;
+  background-image: url('./images/countryside.jpg');
+  box-shadow: inset 0 0 3em 5em #000000;
   opacity: .95
 }
 
 .lead {
   color: #FFE6C6;
+  margin: 10%;
 }
 
 .footer {
@@ -89,4 +82,116 @@
 
 .copyright {
   background-color: #1a252f;
+}
+
+
+@media (min-width: 550px) {
+  .modal-body {
+    display: flex;
+  }
+}
+
+.map {
+  background-image: url('./images/map.png');
+  background-size: auto;
+  position: relative;
+  margin: 5%;
+  padding: 25%;
+  height: 100%;
+  background-size: 100%;
+  background-position: center;
+  opacity: .95;
+  border-radius: 230px;
+}
+
+.grape {
+  cursor: pointer;
+  width: 2%;
+  z-index: 1;
+  position:absolute;
+}
+
+.california {
+  top: 32%;
+  left: 10%;
+}
+
+.france {
+  top: 25%;
+  left: 50%;
+}
+
+.italy {
+  top: 29%;
+  left: 53%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.bottle {
+  width: 45%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 550px) {
+  .bottle {
+    width: 55%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .bottle {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+}
+
+/* Pop */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.modal-text {
+  margin-right: 50px;
 }

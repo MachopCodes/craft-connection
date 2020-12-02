@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
-import Header from './components/Header/Header'
-import Home from './components/Home/Home'
+import Header from './components/Header'
+import Home from './components/Home'
 
 class App extends Component {
   render () {
