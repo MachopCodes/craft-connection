@@ -1,8 +1,8 @@
 {
   "name": "craft-connection",
-  "homepage": "https://MachopCodes.github.io/craft-connection",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wscraftconnection.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
