@@ -1,26 +1,23 @@
 import React, { Fragment } from 'react'
 import bottle from '../../images/bottle.jpg'
+import vineyard1 from '../../images/vineyard1.jpg'
 import { Modal, Carousel } from 'react-bootstrap'
 
-export const California = () => {
+export const Germany = () => {
   return (
     <Fragment>
-      <Modal.Header closeButton>California Wine</Modal.Header>
-      <Modal.Body className='modal-body'>
-        <img className="bottle" src={bottle} alt="bottle"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <Modal.Body closeButton className='modal-body'>
+        <img className="vineyard" src={vineyard1} alt="bottle"/>
       </Modal.Body>
     </Fragment>
   )
 }
 
-export const France = () => {
+export const Chile = () => {
   return (
     <Fragment>
-      <Modal.Header closeButton>French Wine</Modal.Header>
-      <Modal.Body className='modal-body'>
-        <img className="bottle" src={bottle} alt="bottle"/>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <Modal.Body closeButton className='modal-body'>
+        <img className="vineyard" src={vineyard1} alt="bottle"/>
       </Modal.Body>
     </Fragment>
   )

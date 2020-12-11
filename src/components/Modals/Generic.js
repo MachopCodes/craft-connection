@@ -1,14 +1,20 @@
 import React from 'react'
-import { California, France, Italy } from './Brands'
+import { Germany, Chile, Italy } from './Brands'
+import Portugal from './Portugal'
+import France from './France'
+import Argentina from './Argentina'
 import { Modal } from 'react-bootstrap'
 
 const Generic = ({ show, handleClose, connection }) => {
   let brand
-  if (connection === 'California') brand = <California/>
   if (connection === 'France') brand = <France/>
   if (connection === 'Italy') brand = <Italy/>
+  if (connection === 'Portugal') brand = <Portugal/>
+  if (connection === 'Chile') brand = <Chile/>
+  if (connection === 'Argentina') brand = <Argentina/>
+  if (connection === 'Germany') brand = <Germany/>
   return (
-    <Modal centered show={show} onHide={handleClose}>{brand}</Modal>
+    <Modal centered scrollable show={show} onHide={handleClose}>{brand}</Modal>
   )
 }
 
