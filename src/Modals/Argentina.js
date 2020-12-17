@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 import { Modal, Carousel, Container, Row, Col } from 'react-bootstrap'
-import bodega from '../../brands/argentina/bodega.jpg'
-import cab from '../../brands/argentina/cab.png'
-import malbec from '../../brands/argentina/malbec.png'
+import bodega from '../brands/argentina/bodega.jpg'
+import cab from '../brands/argentina/cab.png'
+import malbec from '../brands/argentina/malbec.png'
 
 const Argentina = () => {
   return (

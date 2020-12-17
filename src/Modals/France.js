@@ -1,12 +1,12 @@
 import React, { useState, Fragment } from 'react'
 import { Modal, Carousel, Container, Row, Col } from 'react-bootstrap'
-import maisonLeStar from '../../brands/France/maison-star/star.png'
-import mondon from '../../brands/France/maison-star/mondon.png'
-import parais from '../../brands/France/maison-star/parais.png'
-import pericou from '../../brands/France/maison-star/pericou.png'
-import pinasse from '../../brands/France/maison-star/pinasse.png'
-import cognac from '../../brands/France/cognac.png'
-import chassenac from '../../brands/France/chassenac.png'
+import maisonLeStar from '../brands/France/maison-star/star.png'
+import mondon from '../brands/France/maison-star/mondon.png'
+import parais from '../brands/France/maison-star/parais.png'
+import pericou from '../brands/France/maison-star/pericou.png'
+import pinasse from '../brands/France/maison-star/pinasse.png'
+import cognac from '../brands/France/cognac.png'
+import chassenac from '../brands/France/chassenac.png'
 
 const France = () => {
   const [index, setIndex] = useState(0)

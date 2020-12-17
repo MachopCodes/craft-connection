@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import bottle from '../../images/bottle.jpg'
-import vineyard1 from '../../images/vineyard1.jpg'
+import bottle from '../images/bottle.jpg'
+import vineyard1 from '../images/vineyard1.jpg'
 import { Modal, Carousel } from 'react-bootstrap'
 
 export const Germany = () => {

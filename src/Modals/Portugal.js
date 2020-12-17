@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 // import graca from '../../brands/portugal/graca28/graca.PNG'
-import vanzeller from '../../brands/portugal/vanzeller.png'
-import douro from '../../brands/portugal/graca28/douro.jpg'
-import sebutal from '../../brands/portugal/graca28/sebutal.jpg'
-import realBlend from '../../brands/portugal/fonte-real/blend.png'
-import realSebutal from '../../brands/portugal/fonte-real/sebutal.png'
-import realWhite from '../../brands/portugal/fonte-real/white.png'
+import vanzeller from '../brands/portugal/vanzeller.png'
+import douro from '../brands/portugal/graca28/douro.jpg'
+import sebutal from '../brands/portugal/graca28/sebutal.jpg'
+import realBlend from '../brands/portugal/fonte-real/blend.png'
+import realSebutal from '../brands/portugal/fonte-real/sebutal.png'
+import realWhite from '../brands/portugal/fonte-real/white.png'
 import { Modal, Carousel, Container, Row, Col } from 'react-bootstrap'
 
 const Portugal = () => {

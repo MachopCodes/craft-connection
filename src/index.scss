@@ -16,7 +16,7 @@
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  background-image: url('./images/barrels.jpg');
+  background-image: url('./images/countryside.jpg');
   box-shadow: inset 0 0 4em 4em #000000;
 }
 
@@ -60,17 +60,16 @@
   background-size: cover;
   background-position: right;
   background-image: url('./images/craft.jpg');
-  box-shadow: inset 0 0 1em 4em #000000;
-  opacity: .95
+  box-shadow: inset 0 0 4em 4em #000000;
+  // opacity: .95
 }
 
 .connections {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  background-image: url('./images/countryside.jpg');
-  box-shadow: inset 0 0 3em 5em #000000;
-  opacity: .95
+  background-color: white;
+  // box-shadow: inset 0 0 3em 5em #000000;
 }
 
 .lead1 {
@@ -116,31 +115,30 @@
 }
 
 .map {
-  background-image: url('./images/map.png');
+  background-image: url('./images/transparrent.png');
   background-size: auto;
   position: relative;
-  margin: 5%;
-  padding: 25%;
+  margin: 3%;
+  padding: 21%;
   height: 100%;
   background-size: 100%;
   background-position: center;
   opacity: .95;
-  border-radius: 230px;
 }
 
 .grape {
   cursor: pointer;
-  width: 2%;
+  width: 1.5%;
   z-index: 1;
   position:absolute;
 }
 
-.france { top: 25%; left: 48%; }
-.portugal { top: 30%; left: 44%; }
-.italy { top: 29%; left: 53%; }
-.germany { top: 23%; left: 52%; }
-.chile { top: 72%; left: 21%; }
-.argentina { top: 71%; left: 23%; }
+.portugal { top: 39%; left: 44.5%; }
+.france { top: 34.5%; left: 47.5%; }
+.italy { top: 37.5%; left: 49.5%; }
+.germany { top: 31%; left: 49%; }
+.chile { top: 79%; left: 31%; }
+.argentina { top: 80%; left: 32.5%; }
 
 .vineyard {
   width: 100%;
