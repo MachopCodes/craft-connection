@@ -3,7 +3,8 @@ import Generic from './Modals/Generic'
 import grape from './images/grape.png'
 import logo from './images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faGlassCheers } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+// import { faGlassCheers } from '@fortawesome/free-solid-svg-icons'
 
 const App = () => {
   const [connection, setConnection] = useState()
@@ -19,7 +20,7 @@ const App = () => {
   }
 
   const envelope = <FontAwesomeIcon icon={faEnvelope} />
-  const cheers = <FontAwesomeIcon icon={faGlassCheers} />
+  // const cheers = <FontAwesomeIcon icon={faGlassCheers} />
 
   return (
     <Fragment>
@@ -59,7 +60,7 @@ const App = () => {
         <br/><br/><br/><br/><br/>
       </section>
       <footer className="footer text-center">
-        <h4 className="text-uppercase mb-4">Let&apos;s Connect {cheers}</h4>
+        <h4 className="text-uppercase mb-4">Let&apos;s Connect</h4>
         <a href="mailto:candreae@wscraftconnection.com">
           <i>{envelope} </i>
           <small>hello@wscraftconnection.com</small>
