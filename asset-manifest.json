@@ -1,7 +1,6 @@
 {
-  "main.js": "static/js/main.e5d49d75.js",
-  "main.js.map": "static/js/main.e5d49d75.js.map",
-  "static\\media\\barrels.jpg": "static/media/barrels.374c0dc4.jpg",
+  "main.js": "static/js/main.faade861.js",
+  "main.js.map": "static/js/main.faade861.js.map",
   "static\\media\\blend.png": "static/media/blend.f7c868e7.png",
   "static\\media\\bodega.jpg": "static/media/bodega.b5850901.jpg",
   "static\\media\\bottle.jpg": "static/media/bottle.35e15887.jpg",
@@ -12,9 +11,8 @@
   "static\\media\\craft.jpg": "static/media/craft.f27c9038.jpg",
   "static\\media\\douro.jpg": "static/media/douro.87683a2a.jpg",
   "static\\media\\grape.png": "static/media/grape.ca0792ea.png",
-  "static\\media\\logo.png": "static/media/logo.f42fa157.png",
+  "static\\media\\logo.png": "static/media/logo.63b91b0f.png",
   "static\\media\\malbec.png": "static/media/malbec.558afa79.png",
-  "static\\media\\map.png": "static/media/map.9f396d4d.png",
   "static\\media\\mondon.png": "static/media/mondon.358d81ee.png",
   "static\\media\\parais.png": "static/media/parais.0fa67e5d.png",
   "static\\media\\pericou.png": "static/media/pericou.0172b51b.png",
@@ -22,6 +20,7 @@
   "static\\media\\sebutal.jpg": "static/media/sebutal.6f49eb6b.jpg",
   "static\\media\\sebutal.png": "static/media/sebutal.b602f57d.png",
   "static\\media\\star.png": "static/media/star.c863b32a.png",
+  "static\\media\\transparrent.png": "static/media/transparrent.55310fbf.png",
   "static\\media\\vanzeller.png": "static/media/vanzeller.74e82ba9.png",
   "static\\media\\vineyard1.jpg": "static/media/vineyard1.79cb7a3e.jpg",
   "static\\media\\white.png": "static/media/white.9bd72e0d.png"
