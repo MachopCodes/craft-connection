@@ -24,15 +24,10 @@ const App = () => {
 
   return (
     <Fragment>
-      <header className="masthead parallax bg-primary text-dark text-center">
-        <div className="container d-flex align-items-center flex-column">
-          <br/><br/><br/><br/><br/><br/><br/><br/>
-          <img className="logo" src={logo}/>
-          <br/><br/><br/><br/><br/><br/><br/><br/>
-        </div>
-      </header>
       <section className="about parallax page-section bg-dark mb-0" id="about">
-        <br/><br/><br/><br/><br/>
+        <div className="container d-flex align-items-center flex-column">
+          <img className="craft-connections fade-in" src={logo}/>
+        </div>
         <h6 className="page-section-heading text-center text-uppercase">Our Craft</h6>
         <br/><br/>
         <p className="lead1 centered">

@@ -11,94 +11,82 @@ import { Modal, Carousel, Container, Row, Col } from 'react-bootstrap'
 const Portugal = () => {
   return (
     <Fragment>
-      <Modal.Header closeButton className="modal-header">
-        <img className="vanzeller-logo center" src={vanzeller} alt="bottle"/>
-      </Modal.Header>
       <Carousel>
-        <Carousel.Item>
+        <Carousel.Item className="fade-in">
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6} md={6}>
-                  <img className="bottle" src={douro} alt="bottle"/>
-                </Col>
-                <Col xs={6} md={6}>
-                  <Modal.Title>Graça 28</Modal.Title>
-                  <Modal.Title>Douro DOC</Modal.Title>
-                  <p>14% v/v</p>
-                  <p className="modal-text"> Elegant start that leads to a medium-bodied wine with matured round tannins. Great balance and acidity with a persistent finish.</p>
+                <Col xs={6}><img className="douro" src={douro}/></Col>
+                <Col xs={6}>
+                  <img className="vanzeller-logo" src={vanzeller}/>
+                  <Modal.Title className="title">Graça 28, Douro DOC</Modal.Title>
+                  <p className="modal-text">
+                  Elegant start that leads to a medium-bodied wine with matured round tannins. Great balance and acidity with a persistent finish. 14%.
+                  </p>
                 </Col>
               </Row>
             </Container>
           </Modal.Body>
         </Carousel.Item>
-
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6} md={6}>
-                  <img className="sebutal" src={sebutal} alt="bottle"/>
-                </Col>
-                <Col xs={6} md={6}>
-                  <Modal.Title>Graça 28</Modal.Title>
-                  <Modal.Title>Red Blend Sebútal</Modal.Title>
-                  <p>14.5% v/v</p>
-                  <p className="modal-text">This blend represents the fine character of Península de Setúbal wines. On the palate is full of cassis and black cherry fruit. Pleasant finish.</p>
+                <Col xs={6}><img className="sebutal" src={sebutal}/></Col>
+                <Col xs={6}>
+                  <img className="vanzeller-logo" src={vanzeller}/>
+                  <Modal.Title className="title">Graça 28, Red Blend Sebútal</Modal.Title>
+                  <p className="modal-text">
+                  This blend represents the fine character of Península de Setúbal wines. On the palate is full of cassis and black cherry fruit. Pleasant finish. 14.5%.
+                  </p>
                 </Col>
               </Row>
             </Container>
           </Modal.Body>
         </Carousel.Item>
-
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6} md={6}>
-                  <img className="fonte-real" src={realBlend} alt="bottle"/>
-                </Col>
-                <Col xs={6} md={6}>
-                  <Modal.Title>Fonte-Real</Modal.Title>
-                  <Modal.Title>Red Blend</Modal.Title>
-                  <p>14% v/v</p>
-                  <p className="modal-text">Ruby in colour. In the nose aromas of crushed red fruits with warming spice notes. Velvety plum and cherry tastes harmoniously balanced.</p>
+                <Col xs={6}><img className="fonte-redBlend" src={realBlend}/></Col>
+                <Col xs={6}>
+                  <img className="vanzeller-logo" src={vanzeller}/>
+                  <Modal.Title className="title">Fonte Real, Red Blend</Modal.Title>
+                  <p className="modal-text">
+                  Ruby in colour. In the nose aromas of crushed red fruits with warming spice notes. Velvety plum and cherry tastes harmoniously balanced. 14%.
+                  </p>
                 </Col>
               </Row>
             </Container>
           </Modal.Body>
         </Carousel.Item>
-
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6} md={6}>
-                  <img className="fonte-real" src={realSebutal} alt="bottle"/>
-                </Col>
-                <Col xs={6} md={6}>
-                  <Modal.Title>Fonte-Real</Modal.Title>
-                  <Modal.Title>Red Sebútal IGP</Modal.Title>
-                  <p>15% v/v</p>
-                  <p className="modal-text">Almost black in colour. The palate is powerful, offering a delicious mouthful of juicy ripe blackberries, prunes, plums and spices. The finish is impressively long.</p>
+                <Col xs={6}><img className="fonte-redSebutal" src={realSebutal}/></Col>
+                <Col xs={6}>
+                  <img className="vanzeller-logo" src={vanzeller}/>
+                  <Modal.Title className="title">Fonte Real, Red Sebútal</Modal.Title>
+                  <p className="modal-text">
+                  Almost black in colour. The palate is powerful, offering a delicious mouthful of juicy ripe blackberries, prunes, plums and spices. The finish is impressively long. 15%.
+                  </p>
                 </Col>
               </Row>
             </Container>
           </Modal.Body>
         </Carousel.Item>
-
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6} md={6}>
-                  <img className="fonte-real-white" src={realWhite} alt="bottle"/>
-                </Col>
-                <Col xs={6} md={6}>
-                  <Modal.Title>Fonte-Real</Modal.Title>
-                  <Modal.Title>White Setúbal IGP</Modal.Title>
-                  <p>12% v/v</p>
-                  <p className="modal-text">A delicate straw-gold colour. Fruity with toasty nuances. The palate is structured, with hints of stone fruit and citrus, combined with a surprising acidity.</p>
+                <Col xs={6}><img className="fonte-whiteSebutal" src={realWhite}/></Col>
+                <Col xs={6}>
+                  <img className="vanzeller-logo" src={vanzeller}/>
+                  <Modal.Title className="title">Fonte Real, White Setúbal</Modal.Title>
+                  <p className="modal-text">
+                  A delicate straw-gold colour. Fruity with toasty nuances. The palate is structured, with hints of stone fruit and citrus, combined with a surprising acidity. 12%.
+                  </p>
                 </Col>
               </Row>
             </Container>

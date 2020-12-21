@@ -14,7 +14,7 @@ const Generic = ({ show, handleClose, connection }) => {
   if (connection === 'Argentina') brand = <Argentina/>
   if (connection === 'Germany') brand = <Germany/>
   return (
-    <Modal centered scrollable show={show} onHide={handleClose}>{brand}</Modal>
+    <Modal centered size="lg" scrollable show={show} onHide={handleClose}>{brand}</Modal>
   )
 }
 
