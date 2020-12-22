@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import bottle from '../images/bottle.jpg'
 import vineyard1 from '../images/vineyard1.jpg'
+import vineyard2 from '../images/vineyard2.jpg'
 import { Modal, Carousel } from 'react-bootstrap'
 
 export const Germany = () => {
@@ -17,7 +18,7 @@ export const Chile = () => {
   return (
     <Fragment>
       <Modal.Body closeButton className='modal-body'>
-        <img className="vineyard" src={vineyard1} alt="bottle"/>
+        <img className="vineyard" src={vineyard2} alt="bottle"/>
       </Modal.Body>
     </Fragment>
   )

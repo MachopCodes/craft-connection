@@ -10,7 +10,7 @@ h4 {
 }
 
 .craft-connections {
-  padding-bottom: 15rem;
+  padding-bottom: 1rem;
   width: 85%;
 }
 
@@ -47,6 +47,8 @@ h4 {
     line-height: 1.5rem;
     color: #FFE6C6;
     font-variant: small-caps;
+    padding-bottom: 3%;
+    text-align: center;
   }
 
 .about {
@@ -64,6 +66,10 @@ h4 {
   background-position: right;
   background-color: white;
   // box-shadow: inset 0 0 3em 5em #000000;
+}
+
+.leads {
+  padding-bottom: 10%;
 }
 
 .lead1 {
@@ -88,6 +94,58 @@ h4 {
   color: #FFE6C6;
   margin-left: 40%;
   margin-right: 40%;
+}
+
+@media (max-width: 768px) {
+  .lead1 {
+    color: #FFE6C6;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .lead2 {
+    color: #FFE6C6;
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+
+  .lead3 {
+    color: #FFE6C6;
+    margin-left: 24%;
+    margin-right: 24%;
+  }
+
+  .lead4 {
+    color: #FFE6C6;
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead1 {
+    color: #FFE6C6;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .lead2 {
+    color: #FFE6C6;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .lead3 {
+    color: #FFE6C6;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .lead4 {
+    color: #FFE6C6;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
 }
 
 .footer {
@@ -121,6 +179,45 @@ h4 {
   opacity: .95;
 }
 
+@media (max-width: 765px) {
+  .map {
+    background-image: url('./images/mapcrop.png');
+    background-size: auto;
+    position: relative;
+    margin: 3%;
+    padding: 45%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    opacity: .95;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #FFE6C6;
+  }
+}
+
+@media (max-width: 425px) {
+  .map {
+    display: none;
+  }
+}
+
+.mobile {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  color: #FFE6C6;
+  font-variant: small-caps;
+  padding-bottom: 3%;
+}
+
+@media (min-width: 425px) {
+  .mobile {
+    display: none;
+  }
+}
+
 .grape {
   cursor: pointer;
   width: 1.5%;
@@ -128,16 +225,47 @@ h4 {
   position:absolute;
 }
 
-.portugal { top: 39%; left: 44.5%; }
-.france { top: 34.5%; left: 47.5%; }
-.italy { top: 37.5%; left: 49.5%; }
+@media (max-width: 765px) {
+  .grape {
+    cursor: pointer;
+    width: 3.5%;
+    z-index: 1;
+    position:absolute;
+  }
+}
+
+.france {
+  width: 3.0%;
+  top: 33.7%;
+  left: 46.45%;
+}
+
+.portugal {
+  top: 39%;
+  left: 44.5%;
+}
+.italy {
+  width: 3.3%;
+  top: 36.3%;
+  left: 48.75%;
+}
 .germany { top: 31%; left: 49%; }
 .chile { top: 79%; left: 31%; }
 .argentina { top: 80%; left: 32.5%; }
 
+@media (max-width: 765px) {
+  .portugal { top: 33%; left: 59.5%; }
+  .france { top: 24.5%; left: 67.5%; }
+  .italy { top: 31.5%; left: 75.5%; }
+  .germany { top: 20%; left: 73%; }
+  .chile { top: 89%; left: 17%; }
+  .argentina { top: 91%; left: 22.5%; }
+}
+
 .vineyard {
-  width: 100%;
+  width: 80%;
   margin: auto;
+  border-radius: 3%;
 }
 
 .bottle {
