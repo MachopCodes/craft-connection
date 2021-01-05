@@ -228,7 +228,6 @@ h4 {
 @media (max-width: 765px) {
   .grape {
     cursor: pointer;
-    width: 3.5%;
     z-index: 1;
     position:absolute;
   }
@@ -241,17 +240,30 @@ h4 {
 }
 
 .portugal {
-  top: 39%;
-  left: 44.5%;
+  width: .85%;
+  top: 39.9%;
+  left: 45.5%;
 }
 .italy {
-  width: 3.3%;
-  top: 36.3%;
-  left: 48.75%;
+  width: 2.5%;
+  top: 36.75%;
+  left: 49%;
 }
-.germany { top: 31%; left: 49%; }
-.chile { top: 79%; left: 31%; }
-.argentina { top: 80%; left: 32.5%; }
+.germany {
+  width: 2.1%;
+  top: 30.6%;
+  left: 48.85%;
+}
+.chile {
+  width: 2%;
+  top: 76.7%;
+  left: 30.6%;
+}
+.argentina {
+  width: 4.45%;
+  top: 79.1%;
+  left: 31.0%;
+}
 
 @media (max-width: 765px) {
   .portugal { top: 33%; left: 59.5%; }

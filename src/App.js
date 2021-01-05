@@ -1,8 +1,11 @@
 import React, { useState, Fragment } from 'react'
 import Generic from './Modals/Generic'
-import grape from './images/grape.png'
-import france from './images/france.png'
-import italy from './images/italy.png'
+import argentina from './images/countries/argentina.png'
+import chile from './images/countries/chile.png'
+import portugal from './images/countries/portugal.png'
+import france from './images/countries/france.png'
+import italy from './images/countries/italy.png'
+import germany from './images/countries/germany.png'
 import logo from './images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -56,11 +59,11 @@ const App = () => {
         </ul>
         <div className="map">
           <img className="grape france hvr-pop" src={france} alt="France" onClick={handleShow}/>
-          <img className="grape portugal hvr-pop" src={grape} alt="Portugal" onClick={handleShow}/>
+          <img className="grape portugal hvr-pop" src={portugal} alt="Portugal" onClick={handleShow}/>
           <img className="grape italy hvr-pop" src={italy} alt="Italy" onClick={handleShow}/>
-          <img className="grape germany hvr-pop" src={grape} alt="Germany" onClick={handleShow}/>
-          <img className="grape argentina hvr-pop" src={grape} alt="Argentina" onClick={handleShow}/>
-          <img className="grape chile hvr-pop" src={grape} alt="Chile" onClick={handleShow}/>
+          <img className="grape germany hvr-pop" src={germany} alt="Germany" onClick={handleShow}/>
+          <img className="grape argentina hvr-pop" src={argentina} alt="Argentina" onClick={handleShow}/>
+          <img className="grape chile hvr-pop" src={chile} alt="Chile" onClick={handleShow}/>
         </div>
       </section>
       <footer className="footer text-center">
