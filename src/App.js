@@ -58,12 +58,12 @@ const App = () => {
           <li>Chile</li>
         </ul>
         <div className="map">
-          <img className="grape france hvr-pop" src={france} alt="France" onClick={handleShow}/>
-          <img className="grape portugal hvr-pop" src={portugal} alt="Portugal" onClick={handleShow}/>
-          <img className="grape italy hvr-pop" src={italy} alt="Italy" onClick={handleShow}/>
-          <img className="grape germany hvr-pop" src={germany} alt="Germany" onClick={handleShow}/>
-          <img className="grape argentina hvr-pop" src={argentina} alt="Argentina" onClick={handleShow}/>
-          <img className="grape chile hvr-pop" src={chile} alt="Chile" onClick={handleShow}/>
+          <img className="grape france" src={france} alt="France" onClick={handleShow}/>
+          <img className="grape portugal" src={portugal} alt="Portugal" onClick={handleShow}/>
+          <img className="grape italy" src={italy} alt="Italy" onClick={handleShow}/>
+          <img className="grape germany" src={germany} alt="Germany" onClick={handleShow}/>
+          <img className="grape argentina" src={argentina} alt="Argentina" onClick={handleShow}/>
+          <img className="grape chile" src={chile} alt="Chile" onClick={handleShow}/>
         </div>
       </section>
       <footer className="footer text-center">
