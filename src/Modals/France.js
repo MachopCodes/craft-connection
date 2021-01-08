@@ -16,7 +16,6 @@ const France = () => {
   }
   let image = <img className="fade-in header-logo star-logo" src={maisonLeStar}/>
   if (index === 4) image = <img className="fade-in chassenac-logo" src={chassenac}/>
-
   return (
     <Fragment>
       <Carousel activeIndex={index} onSelect={handleSelect}>

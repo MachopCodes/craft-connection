@@ -9,23 +9,25 @@ import germany from './images/countries/germany.png'
 import logo from './images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-// import { faGlassCheers } from '@fortawesome/free-solid-svg-icons'
 
 const App = () => {
   const [connection, setConnection] = useState()
   const [show, setShow] = useState(false)
+
   const handleClose = () => {
-    setShow(false)
-    setConnection()
+    setConnection(); setShow(false)
   }
 
   const handleShow = e => {
+    setConnection(e.target.alt); setShow(true)
+  }
+
+  const handleShowList = e => {
+    setConnection(e.target.value)
     setShow(true)
-    setConnection(e.target.alt)
   }
 
   const envelope = <FontAwesomeIcon icon={faEnvelope} />
-  // const cheers = <FontAwesomeIcon icon={faGlassCheers} />
 
   return (
     <Fragment>
@@ -50,20 +52,20 @@ const App = () => {
         </div>
         <h2 className="page-section-heading text-uppercase">Our Connections</h2>
         <ul className="mobile">
-          <li>France</li>
-          <li>Portugal</li>
-          <li>Italy</li>
-          <li>Germany</li>
-          <li>Argentina</li>
-          <li>Chile</li>
+          <li value="1" onClick={handleShowList}>France</li>
+          <li value="2" onClick={handleShowList}>Portugal</li>
+          <li value="3" onClick={handleShowList}>Italy</li>
+          <li value="4" onClick={handleShowList}>Germany</li>
+          <li value="5" onClick={handleShowList}>Argentina</li>
+          <li value="6" onClick={handleShowList}>Chile</li>
         </ul>
         <div className="map">
-          <img className="grape france" src={france} alt="France" onClick={handleShow}/>
-          <img className="grape portugal" src={portugal} alt="Portugal" onClick={handleShow}/>
-          <img className="grape italy" src={italy} alt="Italy" onClick={handleShow}/>
-          <img className="grape germany" src={germany} alt="Germany" onClick={handleShow}/>
-          <img className="grape argentina" src={argentina} alt="Argentina" onClick={handleShow}/>
-          <img className="grape chile" src={chile} alt="Chile" onClick={handleShow}/>
+          <img className="grape france" src={france} alt="1" onClick={handleShow}/>
+          <img className="grape portugal" src={portugal} alt="2" onClick={handleShow}/>
+          <img className="grape italy" src={italy} alt="3" onClick={handleShow}/>
+          <img className="grape germany" src={germany} alt="4" onClick={handleShow}/>
+          <img className="grape argentina" src={argentina} alt="5" onClick={handleShow}/>
+          <img className="grape chile" src={chile} alt="6" onClick={handleShow}/>
         </div>
       </section>
       <footer className="footer text-center">
