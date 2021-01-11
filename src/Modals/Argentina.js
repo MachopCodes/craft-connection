@@ -12,7 +12,7 @@ const Argentina = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={4}><img className="bodega-cab" src={cab}/></Col>
+                <Col xs={4}><img className="wine bodega-cab" src={cab}/></Col>
                 <Col xs={8}>
                   <img className="bodega-logo" src={bodega}/>
                   <Modal.Title className="title">Old Vines, Cabernet Sauvignon</Modal.Title>
@@ -28,7 +28,7 @@ const Argentina = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={4}><img className="bodega-malb" src={malbec}/></Col>
+                <Col xs={4}><img className="wine bodega-malb" src={malbec}/></Col>
                 <Col xs={8}>
                   <img className="bodega-logo" src={bodega}/>
                   <Modal.Title className="title">Old Vines, Malbec</Modal.Title>

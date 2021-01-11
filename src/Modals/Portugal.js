@@ -16,7 +16,7 @@ const Portugal = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6}><img className="douro" src={douro}/></Col>
+                <Col xs={6}><img className="wine douro" src={douro}/></Col>
                 <Col xs={6}>
                   <img className="vanzeller-logo" src={vanzeller}/>
                   <Modal.Title className="title">Graça 28, Douro DOC</Modal.Title>
@@ -32,7 +32,7 @@ const Portugal = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6}><img className="sebutal" src={sebutal}/></Col>
+                <Col xs={6}><img className="wine sebutal" src={sebutal}/></Col>
                 <Col xs={6}>
                   <img className="vanzeller-logo" src={vanzeller}/>
                   <Modal.Title className="title">Graça 28, Red Blend Sebútal</Modal.Title>
@@ -48,7 +48,7 @@ const Portugal = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6}><img className="fonte-redBlend" src={realBlend}/></Col>
+                <Col xs={6}><img className="wine fonte-redBlend" src={realBlend}/></Col>
                 <Col xs={6}>
                   <img className="vanzeller-logo" src={vanzeller}/>
                   <Modal.Title className="title">Fonte Real, Red Blend</Modal.Title>
@@ -64,7 +64,7 @@ const Portugal = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6}><img className="fonte-redSebutal" src={realSebutal}/></Col>
+                <Col xs={6}><img className="wine fonte-redSebutal" src={realSebutal}/></Col>
                 <Col xs={6}>
                   <img className="vanzeller-logo" src={vanzeller}/>
                   <Modal.Title className="title">Fonte Real, Red Sebútal</Modal.Title>
@@ -80,7 +80,7 @@ const Portugal = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs={6}><img className="fonte-whiteSebutal" src={realWhite}/></Col>
+                <Col xs={6}><img className="wine fonte-whiteSebutal" src={realWhite}/></Col>
                 <Col xs={6}>
                   <img className="vanzeller-logo" src={vanzeller}/>
                   <Modal.Title className="title">Fonte Real, White Setúbal</Modal.Title>

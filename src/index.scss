@@ -47,6 +47,7 @@ h4 {
     line-height: 1.5rem;
     color: #FFE6C6;
     font-variant: small-caps;
+    padding-top: 15%;
     padding-bottom: 3%;
     text-align: center;
   }
@@ -57,7 +58,6 @@ h4 {
   background-position: right;
   background-image: url('./images/craft.jpg');
   box-shadow: inset 0 0 4em 4em #000000;
-  // opacity: .95
 }
 
 .connections {
@@ -65,58 +65,50 @@ h4 {
   background-size: cover;
   background-position: right;
   background-color: white;
-  // box-shadow: inset 0 0 3em 5em #000000;
 }
 
 .leads {
   padding-bottom: 10%;
+  color: #FFE6C6;
 }
 
 .lead1 {
-  color: #FFE6C6;
   margin-left: 34%;
   margin-right: 34%;
 }
 
 .lead2 {
-  color: #FFE6C6;
   margin-left: 36%;
   margin-right: 36%;
 }
 
 .lead3 {
-  color: #FFE6C6;
   margin-left: 38%;
   margin-right: 38%;
 }
 
 .lead4 {
-  color: #FFE6C6;
   margin-left: 40%;
   margin-right: 40%;
 }
 
 @media (max-width: 768px) {
   .lead1 {
-    color: #FFE6C6;
     margin-left: 20%;
     margin-right: 20%;
   }
 
   .lead2 {
-    color: #FFE6C6;
     margin-left: 22%;
     margin-right: 22%;
   }
 
   .lead3 {
-    color: #FFE6C6;
     margin-left: 24%;
     margin-right: 24%;
   }
 
   .lead4 {
-    color: #FFE6C6;
     margin-left: 26%;
     margin-right: 26%;
   }
@@ -124,25 +116,21 @@ h4 {
 
 @media (max-width: 425px) {
   .lead1 {
-    color: #FFE6C6;
     margin-left: 2%;
     margin-right: 2%;
   }
 
   .lead2 {
-    color: #FFE6C6;
     margin-left: 4%;
     margin-right: 4%;
   }
 
   .lead3 {
-    color: #FFE6C6;
     margin-left: 6%;
     margin-right: 6%;
   }
 
   .lead4 {
-    color: #FFE6C6;
     margin-left: 8%;
     margin-right: 8%;
   }
@@ -155,15 +143,13 @@ h4 {
   color: #fff;
 }
 
-.copyright {
-  background-color: #1a252f;
-}
-
 
 @media (min-width: 550px) {
   .modal-body {
     display: flex;
     text-align: center;
+    max-height: calc(90vh);
+    overflow-y: auto;
   }
 }
 
@@ -207,7 +193,6 @@ h4 {
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 1.5rem;
-  color: #FFE6C6;
   font-variant: small-caps;
   padding-bottom: 3%;
 }
@@ -275,26 +260,31 @@ h4 {
     top: 32.7%;
     left: 60.6%;
   }
+
   .france {
     width: 9.2%;
     top: 23.15%;
     left: 64%;
   }
+
   .italy {
     width: 8%;
     top: 27.65%;
     left: 72%;
   }
+
   .germany {
     width: 6.3%;
     top: 19%;
     left: 71.5%;
    }
+
   .chile {
     width: 6.5%;
     top: 85.2%;
     left: 14.3%;
    }
+
   .argentina {
     width: 14.2%;
     top: 89.1%;
@@ -337,6 +327,12 @@ h4 {
   padding-bottom: 2rem;
 }
 
+.vanzeller-mobile {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
 .bodega-logo {
   display: block;
   margin: auto;
@@ -357,85 +353,120 @@ h4 {
   position:absolute;
 }
 
-.mondon {
-  width: 61%;
+.silver-mobile {
+  width: 35%;
+  top: 5%;
+  left: 45%;
+  position:absolute;
+}
+
+.wine {
   display: flex;
   margin: auto;
+}
+
+.mondon {
+  width: 61%;
+}
+
+.mondon-mobile {
+  width: 35%;
 }
 
 .pinasse {
   width: 60%;
-  display: flex;
-  margin: auto;
+}
+
+.pinasse-mobile {
+  width: 34.4%;
 }
 
 .pericou {
   width:59.3%;
-  display: flex;
-  margin: auto;
+}
+
+.pericou-mobile {
+  width:34%;
 }
 
 .parais {
   width: 58.7%;
-  display: flex;
-  margin: auto;
+}
+
+.parais-mobile {
+  width: 36%;
 }
 
 .cognac {
   width: 124.5%;
-  display: flex;
-  margin: auto;
+  padding-top: 2rem;
+}
+
+.cognac-mobile {
+  width: 87.5%;
   padding-top: 2rem;
 }
 
 .bodega-cab {
   width: 80%;
-  display: flex;
-  margin: auto;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.bodega-cab-mobile {
+  width: 40%;
+  padding-bottom: 2rem;
 }
 
 .bodega-malb {
   width: 79.5%;
-  display: flex;
-  margin: auto;
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
 
+.bodega-malb-mobile {
+  width: 40%;
+  padding-bottom: 2rem;
+}
+
 .douro {
   width: 33%;
-  display: flex;
-  margin: auto;
 }
 
 .sebutal {
   width: 28.5%;
-  display: flex;
-  margin: auto;
   padding-bottom: 1rem;
+}
+
+.sebutal-mobile {
+  width: 27.7%;
 }
 
 .fonte-redBlend {
   width: 33.2%;
-  display: flex;
-  margin: auto;
   padding-bottom: 1rem;
+}
+
+.fonte-redBlend-mobile {
+  width: 34.65%;
 }
 
 .fonte-redSebutal {
   width: 33.1%;
-  display: flex;
-  margin: auto;
   padding-bottom: 1rem;
+}
+
+.fonte-redSebutal-mobile {
+  width: 32.15%;
 }
 
 .fonte-whiteSebutal {
   width: 31.3%;
-  display: flex;
-  margin: auto;
   padding-bottom: 1rem;
+}
+
+.fonte-whiteSebutal-mobile {
+  width: 30.5%;
 }
 
 @media (max-width: 550px) {
@@ -495,6 +526,29 @@ h4 {
 .modal-text {
   margin-right: 50px;
   font-family: Georgia, serif
+}
+
+.mobile-container {
+  padding: 2rem;
+}
+
+.mobile-card {
+  opacity: .95;
+}
+
+.mobile-title {
+  color: black;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.mobile-star-logo {
+  display: block;
+  width: 65%;
+}
+
+.mobile-image {
+  padding-bottom: 2rem;
 }
 
 /* Fade in */

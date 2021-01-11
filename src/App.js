@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from 'react'
 import Generic from './Modals/Generic'
+import Mobile from './Mobile/Mobile'
 import argentina from './images/countries/argentina.png'
 import chile from './images/countries/chile.png'
 import portugal from './images/countries/portugal.png'
@@ -22,10 +23,10 @@ const App = () => {
     setConnection(e.target.alt); setShow(true)
   }
 
-  const handleShowList = e => {
-    setConnection(e.target.value)
-    setShow(true)
-  }
+  // const handleShowList = e => {
+  //   setConnection(e.target.value)
+  //   setShow(true)
+  // }
 
   const envelope = <FontAwesomeIcon icon={faEnvelope} />
 
@@ -35,7 +36,7 @@ const App = () => {
         <div className="container d-flex align-items-center flex-column">
           <img className="craft-connections fade-in" src={logo}/>
         </div>
-        <h6 className="page-section-heading text-uppercase">Our Craft</h6>
+        <h6 className="page-section-heading">Our Craft</h6>
         <div className="leads centered">
           <p className="lead1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -50,15 +51,10 @@ const App = () => {
             Viverra orci sagittis eu volutpat odio. Enim lobortis scelerisque fermentum dui faucibus in.
           </p>
         </div>
-        <h2 className="page-section-heading text-uppercase">Our Connections</h2>
-        <ul className="mobile">
-          <li value="1" onClick={handleShowList}>France</li>
-          <li value="2" onClick={handleShowList}>Portugal</li>
-          <li value="3" onClick={handleShowList}>Italy</li>
-          <li value="4" onClick={handleShowList}>Germany</li>
-          <li value="5" onClick={handleShowList}>Argentina</li>
-          <li value="6" onClick={handleShowList}>Chile</li>
-        </ul>
+        <h2 className="page-section-heading">Our Connections</h2>
+        <div className="mobile">
+          <Mobile/>
+        </div>
         <div className="map">
           <img className="grape france" src={france} alt="1" onClick={handleShow}/>
           <img className="grape portugal" src={portugal} alt="2" onClick={handleShow}/>

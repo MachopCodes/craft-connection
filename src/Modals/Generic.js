@@ -6,7 +6,6 @@ import Argentina from './Argentina'
 import { Modal } from 'react-bootstrap'
 
 const Generic = ({ show, handleClose, connection }) => {
-  console.log('the connection is: ', connection)
   let brand
   if (connection === '1') brand = <France/>
   if (connection === '2') brand = <Portugal/>
@@ -15,7 +14,14 @@ const Generic = ({ show, handleClose, connection }) => {
   if (connection === '5') brand = <Argentina/>
   if (connection === '6') brand = <Chile/>
   return (
-    <Modal centered size="lg" scrollable show={show} onHide={handleClose}>{brand}</Modal>
+    <Modal
+      centered
+      size="lg"
+      scrollable="true"
+      show={show}
+      onHide={handleClose}>
+      {brand}
+    </Modal>
   )
 }
 

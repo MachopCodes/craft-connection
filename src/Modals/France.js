@@ -14,7 +14,7 @@ const France = () => {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex)
   }
-  let image = <img className="fade-in header-logo star-logo" src={maisonLeStar}/>
+  let image = <img className="fade-in star-logo" src={maisonLeStar}/>
   if (index === 4) image = <img className="fade-in chassenac-logo" src={chassenac}/>
   return (
     <Fragment>
@@ -23,7 +23,9 @@ const France = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs="4"><img className="mondon" src={mondon}/></Col>
+                <Col xs="4">
+                  <img className="wine mondon" src={mondon}/>
+                </Col>
                 <Col xs="8">
                   {image}
                   <Modal.Title className="title"> Château Ballue-Mondon, Bordeaux</Modal.Title>
@@ -36,11 +38,11 @@ const France = () => {
           </Modal.Body>
         </Carousel.Item>
         <Carousel.Item>
-          <Modal.Body className='modal-body'>
+          <Modal.Body className='wine modal-body'>
             <Container>
               <Row>
                 <Col xs="4">
-                  <img className="pinasse" src={pinasse}/>
+                  <img className="wine pinasse" src={pinasse}/>
                   <img className="silver" src={silver}/>
                 </Col>
                 <Col xs="8">
@@ -58,7 +60,9 @@ const France = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs="4"><img className="pericou" src={pericou}/></Col>
+                <Col xs="4">
+                  <img className="wine pericou" src={pericou}/>
+                </Col>
                 <Col xs="8">
                   {image}
                   <Modal.Title className="title">Château Péricou, Bordeaux Rouge</Modal.Title>
@@ -74,7 +78,9 @@ const France = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs="4"><img className="parais" src={parais}/></Col>
+                <Col xs="4">
+                  <img className="wine parais" src={parais}/>
+                </Col>
                 <Col xs="8">
                   {image}
                   <Modal.Title className="title">Lou Paraïs, Provence</Modal.Title>
@@ -90,7 +96,9 @@ const France = () => {
           <Modal.Body className='modal-body'>
             <Container>
               <Row>
-                <Col xs="4"><img className="cognac" src={cognac}/></Col>
+                <Col xs="4">
+                  <img className="wine cognac" src={cognac}/>
+                </Col>
                 <Col xs="8">
                   {image}
                   <p className="modal-text">
