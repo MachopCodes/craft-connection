@@ -144,7 +144,7 @@ h4 {
 }
 
 
-@media (min-width: 550px) {
+@media (min-width: 425px) {
   .modal-body {
     display: flex;
     text-align: center;
@@ -298,22 +298,29 @@ h4 {
   border-radius: 3%;
 }
 
-.bottle {
-  width: 45%;
+// .modal-body .fixed {
+//   position: fixed;
+//   top: 5;
+// }
+
+.brand-modal {
+  opacity: .9;
+}
+.modal-content .bottle {
+  position: fixed;
   display: flex;
-  margin: auto;
-  padding-bottom: 1rem;
+  top: 5%
 }
 
 .star-logo {
   display: block;
-  width: 65%;
-  margin: auto;
+  width: 35%;
+  margin-left: 40%;
 }
 
 .chassenac-logo {
   display: block;
-  margin: auto;
+  margin-left: 40%;
   width: 60%;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -340,17 +347,16 @@ h4 {
   padding-bottom: 1rem;
 }
 
+.bodega-header {
+  display: block;
+  margin-left: 40%;
+  width: 50%;
+}
+
 .title {
   padding-bottom: 1rem;
   padding-right: 2rem;
   font-family: Georgia, serif
-}
-
-.silver {
-  width: 65%;
-  top: 5%;
-  left: 45%;
-  position:absolute;
 }
 
 .silver-mobile {
@@ -361,46 +367,55 @@ h4 {
 }
 
 .wine {
+  position: fixed;
   display: flex;
-  margin: auto;
+  top: 14%;
+  padding-left: 3%;
 }
 
 .mondon {
-  width: 61%;
-}
-
-.mondon-mobile {
-  width: 35%;
+  height: 90%;
 }
 
 .pinasse {
-  width: 60%;
+  height: 90%;
+}
+
+.silver {
+  width: 150px;
+  left: 40%;
+  top: 30px;
+}
+
+.pericou {
+  height: 90%;
+}
+
+.parais {
+  height: 90%;
+}
+.mondon-mobile {
+  width: 35%;
+}
+.cognac {
+  height: 90%;
+  padding-top: 1%;
+  margin-left: -9%;
 }
 
 .pinasse-mobile {
   width: 34.4%;
 }
 
-.pericou {
-  width:59.3%;
-}
-
 .pericou-mobile {
   width:34%;
-}
-
-.parais {
-  width: 58.7%;
 }
 
 .parais-mobile {
   width: 36%;
 }
 
-.cognac {
-  width: 124.5%;
-  padding-top: 2rem;
-}
+
 
 .cognac-mobile {
   width: 87.5%;
@@ -471,19 +486,14 @@ h4 {
 
 @media (max-width: 550px) {
   .bottle {
-    width: 55%;
-    display: flex;
-    margin: auto;
-    padding-bottom: 1rem;
+    width: 40%;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .bottle {
-    width: 75%;
-    display: flex;
-    margin: auto;
-    padding-bottom: 1rem;
+    width: 45%;
+    margin-left: 0
   }
 }
 
@@ -566,4 +576,8 @@ animation: fadeIn ease 1s;
 @-webkit-keyframes fadeIn {
 0% {opacity:0;}
 100% {opacity:1;}
+}
+
+.modal-content {
+  height: 90%;
 }

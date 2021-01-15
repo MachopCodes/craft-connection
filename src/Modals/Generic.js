@@ -15,11 +15,8 @@ const Generic = ({ show, handleClose, connection }) => {
   if (connection === '6') brand = <Chile/>
   return (
     <Modal
-      centered
-      size="lg"
-      scrollable="true"
-      show={show}
-      onHide={handleClose}>
+      className="brand-modal" centered size="lg"
+      scrollable="true" show={show} onHide={handleClose}>
       {brand}
     </Modal>
   )
