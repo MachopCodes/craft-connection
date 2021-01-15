@@ -16,7 +16,7 @@ const Generic = ({ show, handleClose, connection }) => {
   return (
     <Modal
       className="brand-modal" centered size="lg"
-      scrollable="true" show={show} onHide={handleClose}>
+      show={show} onHide={handleClose}>
       {brand}
     </Modal>
   )

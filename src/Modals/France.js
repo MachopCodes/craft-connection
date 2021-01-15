@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from 'react'
-import { Modal, Carousel, Container, Row, Col } from 'react-bootstrap'
+import { Modal, Carousel, Col } from 'react-bootstrap'
 import maisonLeStar from '../brands/France/maison-star/star.png'
 import mondon from '../brands/France/maison-star/mondon.png'
 import parais from '../brands/France/maison-star/parais.png'
@@ -38,6 +38,7 @@ const France = () => {
               </p>
             </Col>
           </Modal.Body>
+          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
@@ -52,56 +53,48 @@ const France = () => {
               </p>
             </Col>
           </Modal.Body>
+          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
-            <Container>
-              <Row>
-                <Col xs="6" lg="4">
-                  <img className="wine pericou fade-in" src={pericou}/>
-                </Col>
-                <Col xs="6" lg="8">
-                  <Modal.Title className="title">Château Péricou, Bordeaux Rouge</Modal.Title>
-                  <p className="modal-text">
-                  Château Péricou is well-balanced with supply tannins and red fruit notes. A very pleasent wine typical of the Bordeax appellation. Ideal with grilled red meat, dishes in sauce and a platter of cheese.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
+            <Col xs="6" lg="4">
+              <img className="wine pericou fade-in" src={pericou}/>
+            </Col>
+            <Col xs="6" lg="8">
+              <Modal.Title className="title">Château Péricou, Bordeaux Rouge</Modal.Title>
+              <p className="modal-text">
+              Château Péricou is well-balanced with supply tannins and red fruit notes. A very pleasent wine typical of the Bordeax appellation. Ideal with grilled red meat, dishes in sauce and a platter of cheese.
+              </p>
+            </Col>
           </Modal.Body>
+          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
-            <Container>
-              <Row>
-                <Col xs="6" lg="4">
-                  <img className="wine parais fade-in" src={parais}/>
-                </Col>
-                <Col xs="6" lg="8">
-                  <Modal.Title className="title">Lou Paraïs, Provence</Modal.Title>
-                  <p className="modal-text">
-                  Lou Paraïs reveals a limpid salmon color and a great aromatic intensity on the nose (gooseberry). The palate is supple and fruity, making it a delicious wine easy to drink. A perfect accompaniment for grilled meats, quiches and various componsed salads. It will also be appreciate by itself, as an apertif.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
+            <Col xs="6" lg="4">
+              <img className="wine parais fade-in" src={parais}/>
+            </Col>
+            <Col xs="6" lg="8">
+              <Modal.Title className="title">Lou Paraïs, Provence</Modal.Title>
+              <p className="modal-text">
+              Lou Paraïs reveals a limpid salmon color and a great aromatic intensity on the nose (gooseberry). The palate is supple and fruity, making it a delicious wine easy to drink. A perfect accompaniment for grilled meats, quiches and various componsed salads. It will also be appreciate by itself, as an apertif.
+              </p>
+            </Col>
           </Modal.Body>
+          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
-            <Container>
-              <Row>
-                <Col xs="6" lg="4">
-                  <img className="wine cognac fade-in" src={cognac}/>
-                </Col>
-                <Col xs="6" lg="8">
-                  <p className="modal-text">
-                  Cognac de Chassenac, VSOP is made mainly with Ugni Blanc grapes, aged in oak barrels and transformed into Cognac through double distillation.   Golden yellow color, this VSOP is both fruity and floral on the nose and on the palate. Best served at 20° to 25° C. on ice, in cocktails or long drinks.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
+            <Col xs="6" lg="4">
+              <img className="wine cognac fade-in" src={cognac}/>
+            </Col>
+            <Col xs="6" lg="8">
+              <p className="modal-text">
+              Cognac de Chassenac, VSOP is made mainly with Ugni Blanc grapes, aged in oak barrels and transformed into Cognac through double distillation.   Golden yellow color, this VSOP is both fruity and floral on the nose and on the palate. Best served at 20° to 25° C. on ice, in cocktails or long drinks.
+              </p>
+            </Col>
           </Modal.Body>
+          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
       </Carousel>
     </Fragment>

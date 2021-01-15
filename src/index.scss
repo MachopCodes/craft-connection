@@ -148,7 +148,7 @@ h4 {
   .modal-body {
     display: flex;
     text-align: center;
-    max-height: calc(90vh);
+    height: calc(40vh);
     overflow-y: auto;
   }
 }
@@ -320,7 +320,7 @@ h4 {
 
 .chassenac-logo {
   display: block;
-  margin-left: 40%;
+  margin-left: 35%;
   width: 60%;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -401,6 +401,16 @@ h4 {
   height: 90%;
   padding-top: 1%;
   margin-left: -9%;
+}
+
+@media (max-width: 1000px) {
+  .wine {
+    margin-left: -3%;
+  }
+  .cognac {
+    margin-left: -15%;
+    padding-top: 3%;
+  }
 }
 
 .pinasse-mobile {
@@ -578,6 +588,17 @@ animation: fadeIn ease 1s;
 100% {opacity:1;}
 }
 
-.modal-content {
-  height: 90%;
+.fade-out {
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+}
+
+@keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
 }
