@@ -23,16 +23,11 @@ const App = () => {
     setConnection(e.target.alt); setShow(true)
   }
 
-  // const handleShowList = e => {
-  //   setConnection(e.target.value)
-  //   setShow(true)
-  // }
-
   const envelope = <FontAwesomeIcon icon={faEnvelope} />
 
   return (
     <Fragment>
-      <section className="about parallax page-section bg-dark mb-0" id="about">
+      <section className="about fade-in parallax page-section bg-dark mb-0">
         <div className="container d-flex align-items-center flex-column">
           <img className="craft-connections fade-in" src={logo}/>
         </div>

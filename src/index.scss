@@ -143,7 +143,6 @@ h4 {
   color: #fff;
 }
 
-
 @media (min-width: 425px) {
   .modal-body {
     display: flex;
@@ -183,9 +182,7 @@ h4 {
 }
 
 @media (max-width: 425px) {
-  .map {
-    display: none;
-  }
+  .map {display: none;}
 }
 
 .mobile {
@@ -198,9 +195,7 @@ h4 {
 }
 
 @media (min-width: 425px) {
-  .mobile {
-    display: none;
-  }
+  .mobile {display: none;}
 }
 
 .grape:hover {
@@ -303,9 +298,8 @@ h4 {
 //   top: 5;
 // }
 
-.brand-modal {
-  opacity: .9;
-}
+.brand-modal {opacity: .9;}
+
 .modal-content .bottle {
   position: fixed;
   display: flex;
@@ -326,12 +320,17 @@ h4 {
   padding-top: 1rem;
 }
 
-.vanzeller-logo {
+.mobile-chassenac-logo {
+  padding-top: 5%;
   display: block;
   margin: auto;
-  width: 105%;
-  padding-right: 3rem;
-  padding-bottom: 2rem;
+  width: 80%;
+}
+
+.vanzeller-logo {
+  display: block;
+  width: 35%;
+  margin-left: 46%;
 }
 
 .vanzeller-mobile {
@@ -342,9 +341,14 @@ h4 {
 
 .bodega-logo {
   display: block;
+  margin-left: 40%;
+  width: 50%;
+}
+
+.bodega-mobile {
+  display: block;
   margin: auto;
-  width: 80%;
-  padding-bottom: 1rem;
+  width: 50%;
 }
 
 .bodega-header {
@@ -370,72 +374,51 @@ h4 {
   position: fixed;
   display: flex;
   top: 14%;
+}
+
+.french {
+  height: 90%;
   padding-left: 3%;
 }
 
-.mondon {
-  height: 90%;
-}
-
-.pinasse {
-  height: 90%;
-}
-
-.silver {
-  width: 150px;
-  left: 40%;
-  top: 30px;
-}
-
-.pericou {
-  height: 90%;
-}
-
-.parais {
-  height: 90%;
-}
-.mondon-mobile {
-  width: 35%;
-}
 .cognac {
-  height: 90%;
   padding-top: 1%;
   margin-left: -9%;
 }
 
+// .silver {
+//   width: 150px;
+//   left: 40%;
+//   top: 30px;
+// }
+
+
+.mondon-mobile {width: 35%;}
+.pinasse-mobile {width: 34.4%;}
+.pericou-mobile {width:34%;}
+.parais-mobile {width: 36%;}
+.cognac-mobile {
+  width: 87.5%;
+  padding-top: 2rem;
+}
+
 @media (max-width: 1000px) {
-  .wine {
-    margin-left: -3%;
-  }
+  .wine {margin-left: -3%;}
   .cognac {
     margin-left: -15%;
     padding-top: 3%;
   }
 }
 
-.pinasse-mobile {
-  width: 34.4%;
+.argentine {
+  top: 2%;
+  padding-left: 2%;
 }
 
-.pericou-mobile {
-  width:34%;
-}
-
-.parais-mobile {
-  width: 36%;
-}
-
-
-
-.cognac-mobile {
-  width: 87.5%;
-  padding-top: 2rem;
-}
-
-.bodega-cab {
-  width: 80%;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
+.malb {
+  top: 4.3%;
+  padding-left: 1.6%;
+  height: 109%;
 }
 
 .bodega-cab-mobile {
@@ -443,56 +426,38 @@ h4 {
   padding-bottom: 2rem;
 }
 
-.bodega-malb {
-  width: 79.5%;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-}
-
 .bodega-malb-mobile {
-  width: 40%;
+  width: 39.63%;
   padding-bottom: 2rem;
 }
 
-.douro {
-  width: 33%;
+.portugese {
+  height: 90%;
+  padding-left: 5%;
 }
 
 .sebutal {
-  width: 28.5%;
-  padding-bottom: 1rem;
+  padding-top: 2%;
+  padding-left: 6%;
 }
 
-.sebutal-mobile {
-  width: 27.7%;
+.real-blend {
+  height: 96%;
+  padding-top: 1.2%;
+  padding-left: 5%;
 }
 
-.fonte-redBlend {
-  width: 33.2%;
-  padding-bottom: 1rem;
+.real {
+  height: 90%;
+  padding-top: 2%;
+  padding-left: 5.5%;
 }
 
-.fonte-redBlend-mobile {
-  width: 34.65%;
-}
-
-.fonte-redSebutal {
-  width: 33.1%;
-  padding-bottom: 1rem;
-}
-
-.fonte-redSebutal-mobile {
-  width: 32.15%;
-}
-
-.fonte-whiteSebutal {
-  width: 31.3%;
-  padding-bottom: 1rem;
-}
-
-.fonte-whiteSebutal-mobile {
-  width: 30.5%;
-}
+.douro-mobile {width: 30.8%;}
+.sebutal-mobile {width: 27.7%;}
+.fonte-redBlend-mobile {width: 32.3%;}
+.fonte-redSebutal-mobile {width: 32.2%;}
+.fonte-whiteSebutal-mobile {width: 29.1%;}
 
 @media (max-width: 550px) {
   .bottle {
@@ -568,7 +533,9 @@ h4 {
 }
 
 .mobile-image {
-  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
 }
 
 /* Fade in */

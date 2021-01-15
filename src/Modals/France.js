@@ -21,15 +21,11 @@ const France = () => {
   return (
     <Fragment>
       <Modal.Header closeButton>{logo}</Modal.Header>
-      <Carousel
-        activeIndex={index}
-        onSelect={handleSelect}
-        interval={false}
-        fade={true}>
+      <Carousel activeIndex={index} onSelect={handleSelect} fade={true}>
         <Carousel.Item className='fade-in'>
           <Modal.Body className='modal-body'>
             <Col xs="6" lg="4">
-              <img className="wine mondon fade-in" src={mondon}/>
+              <img className="french wine fade-in" src={mondon}/>
             </Col>
             <Col xs="6" lg="8">
               <Modal.Title className="title">Château Ballue-Mondon, Bordeaux</Modal.Title>
@@ -38,13 +34,12 @@ const France = () => {
               </p>
             </Col>
           </Modal.Body>
-          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Col xs="6" lg="4">
-              <img className="wine pinasse fade-in" src={pinasse}/>
-              { /* <img className="wine silver fade-in" src={silver}/> */ }
+              <img className="french wine fade-in" src={pinasse}/>
+              { /* <img className="french wine fade-in" src={silver}/> */ }
             </Col>
             <Col xs="6" lg="8">
               <Modal.Title className="title">Château Pinasse, Bordeaux</Modal.Title>
@@ -53,12 +48,11 @@ const France = () => {
               </p>
             </Col>
           </Modal.Body>
-          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Col xs="6" lg="4">
-              <img className="wine pericou fade-in" src={pericou}/>
+              <img className="french wine fade-in" src={pericou}/>
             </Col>
             <Col xs="6" lg="8">
               <Modal.Title className="title">Château Péricou, Bordeaux Rouge</Modal.Title>
@@ -67,12 +61,11 @@ const France = () => {
               </p>
             </Col>
           </Modal.Body>
-          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Col xs="6" lg="4">
-              <img className="wine parais fade-in" src={parais}/>
+              <img className="french wine fade-in" src={parais}/>
             </Col>
             <Col xs="6" lg="8">
               <Modal.Title className="title">Lou Paraïs, Provence</Modal.Title>
@@ -81,12 +74,11 @@ const France = () => {
               </p>
             </Col>
           </Modal.Body>
-          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
         <Carousel.Item>
           <Modal.Body className='modal-body'>
             <Col xs="6" lg="4">
-              <img className="wine cognac fade-in" src={cognac}/>
+              <img className="french wine cognac fade-in" src={cognac}/>
             </Col>
             <Col xs="6" lg="8">
               <p className="modal-text">
@@ -94,9 +86,9 @@ const France = () => {
               </p>
             </Col>
           </Modal.Body>
-          <Modal.Footer></Modal.Footer>
         </Carousel.Item>
       </Carousel>
+      <Modal.Footer/>
     </Fragment>
   )
 }
